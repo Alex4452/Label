@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  dllmain.cpp
+  LabelDLL.cpp
+c:\users\alex\desktop\credential access model\labeldll\labeldll\labeldll.h(100): warning C4251: Label::longForm: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Label"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xstring(4373): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+c:\users\alex\desktop\credential access model\labeldll\labeldll\labeldll.h(101): warning C4251: Label::shortForm: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Label"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xstring(4373): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+c:\users\alex\desktop\credential access model\labeldll\labeldll\labeldll.h(102): warning C4251: Label::parentName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Label"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xstring(4373): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Создание кода...
+c:\users\alex\desktop\credential access model\labeldll\labeldll\labeldll.cpp(407): warning C4715: CompareLabel::compareGroups: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\Alex\Desktop\Credential access model\LabelDLL\x64\Debug\LABELDLL.lib и объект C:\Users\Alex\Desktop\Credential access model\LabelDLL\x64\Debug\LABELDLL.exp
+  LabelDLL.vcxproj -> C:\Users\Alex\Desktop\Credential access model\LabelDLL\x64\Debug\LABELDLL.dll

@@ -1,0 +1,17 @@
+name: TestAction
+
+on: [push]
+
+jobs:
+  build:
+    name: TestBuild
+    runs-on: [windows]
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Code
+      run: make
+    - name: Run Code
+      run: ./LabelDLL
+    - name: make distcheck
+      run: make distcheck
